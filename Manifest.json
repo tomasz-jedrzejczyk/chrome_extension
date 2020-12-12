@@ -1,0 +1,23 @@
+{
+    "name": "Timer_TJ",
+    "short_name": "Timer",
+    "description": "Timer for timing ",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "icon": {
+        "16": "imager/timer_icon.png",
+        "128": "imager/timer_icon.png"
+    },
+    "background": {
+        "scripts": ["scripts/background.js"]
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/timer_default_icon.png",
+            "38": "images/timer_default_icon.png"
+        },
+        "default_title": "Timer",
+        "default_popup": "pages/popup/popup.html"
+    }
+
+}
